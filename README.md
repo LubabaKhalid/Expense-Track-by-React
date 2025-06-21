@@ -37,15 +37,22 @@ Realtime summary updates
 
 Validation and filtering
 
-# Structure of files:
+## 📁 Project Folder Structure
 
-src----|
-       |components----|
-       |              |-->ExpenseFilter.js 
-       |              |-->ExpenseForm.js and css
-       |              |-->ExpenseItem.js and css
-       |              |-->ExpenseList.js and css
-       |              |-->Summary.js
-       |-->App.js and css
-       |-->index.js and css
+<pre><code>📁 src  
+├── 📁 components  
+│   ├── 📄 ExpenseFilter.js  
+│   ├── 📄 ExpenseForm.js  
+│   ├── 📄 ExpenseForm.css  
+│   ├── 📄 ExpenseItem.js  
+│   ├── 📄 ExpenseItem.css  
+│   ├── 📄 ExpenseList.js  
+│   ├── 📄 ExpenseList.css  
+│   └── 📄 Summary.js  
+├── 📄 App.js  
+├── 📄 App.css  
+├── 📄 index.js  
+└── 📄 index.css  
+</code></pre>
+
 
