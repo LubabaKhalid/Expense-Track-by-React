@@ -16,11 +16,15 @@ function App() {
     category: "All",
   });
 
+  // ✅ Load from localStorage when app loads
   useEffect(() => {
-    const data = localStorage.getItem("expenses");
-    if (data) setExpenses(JSON.parse(data));
+    const storedData = localStorage.getItem("expenses");
+    if (storedData) {
+      setExpenses(JSON.parse(storedData));
+    }
   }, []);
 
+  // ✅ Save to localStorage whenever expenses change
   useEffect(() => {
     localStorage.setItem("expenses", JSON.stringify(expenses));
   }, [expenses]);
