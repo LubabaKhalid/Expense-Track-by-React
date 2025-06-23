@@ -55,4 +55,6 @@ Validation and filtering
 └── 📄 index.css  
 </code></pre>
 
+## 🔗 Live Demo
 
+[Click here to try the app] https://cool-florentine-fb4c8a.netlify.app/
